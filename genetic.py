@@ -48,9 +48,9 @@ def createChild(parents):
     m = random.randrange(0,len(parents))
     while(n==m):
         m = random.randrange(0,len(parents))
-        individual1 = parents[n]
-        individual2 = parents[m]
-        child = ''
+    individual1 = parents[n]
+    individual2 = parents[m]
+    child = ''
     for i in range(len(individual1)):
         if (int(100 * random.random()) <50):
             child += individual1[i]
